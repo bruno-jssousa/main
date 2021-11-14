@@ -1,0 +1,131 @@
+:root{
+    --preto:#141414;
+    --vermelho:#e50914;
+    --vinho:rgba(133, 93, 8, 0.5); 
+}
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: var(--preto);
+    font-family: 'Times New Roman', Times, serif;
+    color: white;
+}
+
+header .container{
+    display:flex;
+    flex-direction:row;
+    align-items: center;
+    justify-content:space-between;
+    
+
+}
+header .name{
+    color: var(--vermelho);
+    margin-left: 10px;
+    font-size: 40px;
+}
+header nav a {
+    text-decoration: none;
+    margin-right: 10px;
+    font-size:19px;
+    color: var(--vermelho);
+}
+
+header nav a:hover{
+    color: #fff;
+
+}
+
+.container{
+    margin-left:20px;
+    margin-right: 20px;
+    margin-bottom:1em;
+   
+}
+
+.titulo-principal .container{
+    width: 70%;
+}
+ .titulo-principal{
+    font-size:15px; 
+    background:linear-gradient(rgba(0,0,0,.50),rgba(0,0,0,.50)100%),  url('/img/aa.jpg');
+    height :600px;
+    background-size:cover;
+
+    display: flex;
+    flex-direction: column;
+    align-items:flex-start;
+    justify-content:center;
+    
+
+     
+ }
+
+ .titulo-principal .descricao{
+     margin-top: 20px;
+     margin-bottom: 30px;
+     font-size: 120%;
+     
+     
+ }
+ .botao{
+    background-color:var(--vinho);
+    color: white;
+    border:none;
+    padding:15px  20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin-right: 60px;
+    border-radius:10px;
+
+ 
+    
+    cursor:pointer;
+   
+    font-size: 12px;
+    transition: .4s ease all;
+    
+}
+.botao i{
+    margin-right:8px;
+}
+
+.botao:hover{
+   background-color:white;
+   color: var(--vermelho);
+   border-radius: 3px;  
+    
+}
+
+
+
+.titulo-principal .titulo{
+
+    margin-top: 15%;
+    font-size: 40px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    
+}
+.lancamentos{
+    font-size: 40px;
+    margin: 20px;
+}
+.lancamentos:hover{
+    transition: .3s ease all;
+    cursor:pointer;
+    color:var(--vermelho)
+}
+
+.box-filme{
+    height: 100%;
+    width: 100%;
+    display: block;
+}
+.carrocel-filmes{
+    margin-top: 5px;
+}
